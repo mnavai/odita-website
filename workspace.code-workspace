@@ -1,0 +1,11 @@
+{
+  "folders": [
+	{
+		"name": "OdinTest",
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "OdinTest"
+  }
+}
