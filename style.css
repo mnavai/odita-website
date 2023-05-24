@@ -85,6 +85,7 @@ main{
     display: flex;
     flex-direction: column;
 }
+/* grid container */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Two columns */
