@@ -76,12 +76,12 @@ main{
 .hgroup-heading{
     color:#ffffff;
     font-size: 2rem;
-    padding-top: 7rem;
+    margin-top: 13rem;
 }
 .hgroup-p{
     color: #ffffff;
     font-size: 1.275rem;
-    padding-top:1rem;
+    padding-top:2rem;
 }
 .first-row{
     display: flex;
