@@ -134,11 +134,19 @@ main{
 .check-box-container{
     display: flex;
     flex-direction: column;
-    margin-top: 4rem;
+    margin-top: auto;
+    margin-bottom: auto;
 }
-.container-heading-text{
+.container-heading{
     align-self: center;
     font-size: 2rem;
+    padding-bottom: 1rem;
+}
+.container-p{
+    align-self: center;
+    font-size: 1rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
 }
 .svg-text-group{
     display: flex;
