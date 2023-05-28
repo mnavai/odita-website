@@ -95,6 +95,7 @@ main{
     margin-right: 5vw;
     margin-top: auto;
     margin-bottom: auto;
+    margin-left: 2rem;
 }
 .check-box-container{
     display: flex;
