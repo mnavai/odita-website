@@ -131,3 +131,10 @@ main{
 .forth-row-img img{
     width: 100%;
 }
+.checked-svg{
+    width: 50px;
+}   
+.checkbox{
+    display: flex;
+    align-items: center;
+}
