@@ -14,25 +14,30 @@ html, body, h1, h2, h3, h4, h5, p {
 }
 body{
     background-color: hsl(0, 0%, 100%);
-    /* to place everything in the center of body */
     display: grid;
     place-items: center;
     height: 100vh; 
     max-width: 100%;
-    padding: 2rem;;
+    padding: 2rem;
 }
 .header{
     display: flex;
     align-items: center;
-    z-index: 2rem;
+    position: fixed;
+    top: 0;
+    padding-left: 3rem;
+    width: 100vw;
+    z-index: 3rem;
+    background-color: white;
 }
 .nav-bar{
     display: flex;
-    background-color: aqua;
     width: 90vw; 
-
     list-style-type: none;
+    font-size: 1.2rem;
+    
 }
+
 .list-item {
     list-style: none;
 }
@@ -61,7 +66,7 @@ main{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45vh;
+    height: 68vh;
 }
 .first-row{
     display: flex;
