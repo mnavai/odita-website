@@ -68,6 +68,21 @@ main{
     background-size: cover;
     height: 68vh;
 }
+.text-block{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+.hgroup-heading{
+    color:#ffffff;
+    font-size: 2rem;
+    padding-top: 7rem;
+}
+.hgroup-p{
+    color: #ffffff;
+    font-size: 1.275rem;
+    padding-top:1rem;
+}
 .first-row{
     display: flex;
     justify-content: space-between;
