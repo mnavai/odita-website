@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
 
 /* reset the following */
-html, body, h1, h2, h3, h4, h5, p {
+html, body, h1, h2, h3, h4, h5,h6 p {
     margin:0;
     padding:0;
     border:0;
@@ -131,6 +131,7 @@ main{
     grid-template-rows: repeat(2, auto); /* Two rows */
     gap: 1rem; /* Adjust the gap between cells */
     padding: 1rem;
+    padding-right: 0;
 }
 .check-box-container{
     display: flex;
@@ -142,11 +143,11 @@ main{
     align-self: center;
     font-size: 2rem;
     padding-bottom: 1rem;
+    color:#17006c;
 }
 .container-p{
     align-self: center;
     font-size: 1rem;
-    padding-bottom: 1.5rem;
     padding-top: 1.5rem;
 }
 .svg-text-group{
@@ -169,6 +170,7 @@ main{
 }
 .grid-txt-toggle{
     padding-bottom: 1rem;
+    color: grey;
 }
 .column{
     display: flex;
@@ -177,8 +179,11 @@ main{
 }
 
 .grid-heading{
-    font-size: 14px;
-    color: #011b86;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    margin:0;
+    padding: 0;
 }
 .second-row-text{
     display: flex;
@@ -188,19 +193,20 @@ main{
 }
 .secondrow-heading-large {
     font-size: 2rem;
-    color: #011b86;
+    color: #17006c;
     padding-bottom: 1.5rem;
     padding-top: 2rem;
 }
 .secondrow-heading-small{
-    font-size: 1rem;
-    color: #011b86;
+    font-size: 1.5rem;
+    color: black;
     padding-bottom: 1.5rem;
     padding-top: 1.5rem;
 }
 .secondrow-p{
-    font-size: .8rem;
-    color: rgb(47, 46, 46);
+    font-size: 1rem;
+    color: grey;
+    padding-right: 3rem;
 }
 .third-row{
     display: flex;
@@ -214,6 +220,7 @@ main{
 .contactus-heading{
     font-size: 3rem;
     text-align: center;
+    color:#17006c;
 }
 .contactus-p{
     font-size: 1.1rem;
@@ -230,7 +237,7 @@ main{
     vertical-align: middle;
 }
 .btn:hover{
-    background-color: #011b86;
+    background-color: #17006c;
 }
 a{
     text-decoration: none;
