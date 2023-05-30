@@ -138,6 +138,7 @@ main{
     flex-direction: column;
     margin-top: auto;
     margin-bottom: auto;
+    
 }
 .container-heading{
     align-self: center;
@@ -292,7 +293,7 @@ a{
         padding-left: 1rem;
         padding-right: 1rem;
         width: 100vw;
-        z-index: 3rem;
+        z-index: 3;
         background-color: white;
     }
     .hamburger{
@@ -321,7 +322,7 @@ a{
         box-sizing: border-box;
     }
     .logo img {
-        width: 5.25rem;
+        width: 4.25rem;
         padding-left: 0;
         padding-top: 0.5rem;
     }
@@ -331,7 +332,7 @@ a{
         background-repeat: no-repeat;
         background-size: cover;
         height: 17vh;
-        margin-top: 5rem;
+        margin-top: 4rem;
     }
     .checks-pic-container img {
         width: 82vw;
@@ -345,8 +346,8 @@ a{
         display: flex;
         flex-direction: column;
         width: 85vw;
-        margin-top: .5rem;
-        margin-bottom: .5rem;
+        margin-top: 0;
+        margin-bottom: 1rem;
         margin-left: auto;
         margin-right: auto;
     }
@@ -358,6 +359,7 @@ a{
     }
     .container-p{
         padding-top: 0;
+        font-size: .6rem;
     }
     .container-heading{
         padding-bottom: 0;
@@ -470,9 +472,7 @@ a{
         padding-top: 5rem;
         padding-bottom: 5rem;
     }
-    .btn{
-
-    }
+  
     .btn.text{
         font-size: .5rem;
         padding: 0;
@@ -499,6 +499,7 @@ a{
     }
     .header{
         padding-left: 1rem;
+        z-index: 1000;
     }
     .hgroup-heading {
         font-size: 1rem;
@@ -570,6 +571,12 @@ a{
    }
    .contactus-p{
         padding-bottom: 2rem;
+   }
+   .contactus-heading{
+        font-size: 2.5rem;
+   }
+   .checkbox, .svg-icon{
+        position: relative;
    }
 
 }
