@@ -391,7 +391,7 @@ a{
         display: flex;
         flex-direction: column;
         background-color: rgb(242, 241, 241);
-        height: 55vh;
+        height: 78vh;
         padding-top: 0;
         padding-bottom: 0;
     }
@@ -422,12 +422,10 @@ a{
         text-align: center;
     }
     .grid-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, auto);
-        gap: 1rem;
-        padding: 1rem;
-        padding-right: 0;
+        display: flex;
+        flex-direction: column;
+        padding-left: 1rem;
+        padding-right: 1rem;
         width: 100vw;
     }
     .column {
@@ -482,4 +480,8 @@ a{
     .footer{
         font-size: .5rem;
     }
+}
+
+@media screen and (min-width: 579px) and (max-width: 1024px){
+
 }
