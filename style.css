@@ -37,6 +37,10 @@ body{
     font-size: 1.2rem;
     
 }
+ #sidebar-menu {
+     display: none;
+
+ }
 
 .list-item {
     list-style: none;
@@ -296,30 +300,55 @@ a{
         z-index: 3;
         background-color: white;
     }
-    .hamburger{
+    .hamburger {
         display: flex;
-    }
-    #hamburger-menu {
-        width: 30px;
-        height: 20px;
-        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        width: 40px;
+        height: 30px;
         border: none;
-        padding: 0px;
-        margin: 10px;
+        cursor: pointer;
+    }
+    
+    .bar {
+        width: 30px;
+        height: 5px;
         background: linear-gradient(to bottom,
-                grey, grey 20%,
-                white 20%, white 40%,
-                grey 40%, grey 60%,
-                white 60%, white 80%,
-                grey 80%, grey 100%);
+                    grey, grey 20%,
+                    white 20%, white 40%,
+                    grey 40%, grey 60%,
+                    white 60%, white 80%,
+                    grey 80%, grey 100%);
+        margin: 3px 0;
+    }
+    #sidebar-menu {
+        display: none;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        background-color: #f1f1f1;
+        padding: 10px;
+    }
+    #menu-list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    #menu-list li {
+        padding: 5px;
+    }
+    #menu-list li a {
+        text-decoration: none;
+    }
+    .hamburger.active .bar {
+        display: none;
     }
 
-    #hamburger-menu #sidebar-menu {
-        visibility: hidden;
-        position: fixed;
-        background-color: #17006c;
-        padding: 0px 5px;
-        box-sizing: border-box;
+    #sidebar-menu.active {
+        display: block;
     }
     .logo img {
         width: 4.25rem;
